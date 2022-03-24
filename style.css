@@ -1,0 +1,112 @@
+/*   section1   */
+.first_section {
+  background-image: url("travel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 615px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name_container {
+  text-align: center;
+}
+
+.name_container h2 {
+  font-size: 50px;
+  font-family: serif;
+  color: white;
+}
+
+.name_container p {
+  font-size: 40px;
+  font-family: serif;
+  color: white;
+}
+/*   section1   */
+
+
+
+/*   second2   */
+.second_section {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.about_me {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+
+.about_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.info_text {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #444;
+
+  height: 220px;
+  width: 30%;
+}
+
+.info_small {
+  font-size: 20px;
+  margin-top: 30px;
+}
+/*   second2   */
+
+/*   section3   */
+.third_section {
+  background-color: #cbdaf1;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.more_me {
+  font-size: 60px;
+  color: #444;
+}
+.more_contaienr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.career, .cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.career_area, .pet {
+  width: 40%;
+  padding: 20px;
+}
+
+p {
+  font-size: 40px;
+  font-family: serif;
+}
+
+.info_image {
+  width: 40%;
+  height: auto;
+}
+/*   section3  */
